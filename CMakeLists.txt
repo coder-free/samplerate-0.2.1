@@ -1,6 +1,6 @@
 # https://stackoverflow.com/questions/51907755/building-a-pybind11-module-with-cpp-and-cuda-sources-using-cmake
 
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.20)
 
 message(STATUS "Found Python prefix ${PYTHON_PREFIX}")
 list(PREPEND CMAKE_PREFIX_PATH "${PYTHON_PREFIX}")
