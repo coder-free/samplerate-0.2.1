@@ -1,3 +1,11 @@
+install it with  pip install git+https://github.com/coder-free/samplerate-0.2.1.git
+if error， you can build whl file by your self.
+1. git clone https://github.com/coder-free/samplerate-0.2.1.git
+2. pip install wheel setuptools cmake ninja
+3. python setup.py bdist_wheel --plat-name win-amd64
+--plat-name is win-amd64/win-arm64/...
+
+
 python-samplerate
 =================
 
