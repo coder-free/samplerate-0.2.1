@@ -4,15 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name="samplerate"
-dynamic = ["version"]
+dynamic = ["version", "readme"]
 description="Monolithic python wrapper for libsamplerate based on pybind11 and NumPy"
 authors=[
 {"name" = "Robin Scheibler", "email" ="fakufaku@gmail.com"},
 {"name" = "Tino Wagner", "email" ="ich@tinowagner.com"}
 ]
 requires-python = ">=3.7"
-readme = "README.rst"
-license = "MIT"
 classifiers=[
   "Development Status :: 3 - Alpha",
   "Environment :: Console",
@@ -24,6 +22,10 @@ classifiers=[
   "Topic :: Multimedia :: Sound/Audio",
 ]
 keywords=["samplerate", "converter", "signal processing", "audio"]
+license = {text = "MIT"}
 dependencies = ["numpy"]
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.rst"]}
 
 [tool.setuptools_scm]
