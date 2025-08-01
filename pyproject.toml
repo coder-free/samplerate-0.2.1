@@ -22,7 +22,7 @@ classifiers=[
   "Topic :: Multimedia :: Sound/Audio",
 ]
 keywords=["samplerate", "converter", "signal processing", "audio"]
-license = {text = "MIT"}
+license = "MIT"
 dependencies = ["numpy"]
 
 [tool.setuptools.dynamic]
