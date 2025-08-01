@@ -27,7 +27,4 @@ classifiers=[
 keywords=["samplerate", "converter", "signal processing", "audio"]
 dependencies = ["numpy"]
 
-[tool.setuptools.dynamic]
-readme = "README.rst"
-
 [tool.setuptools_scm]
